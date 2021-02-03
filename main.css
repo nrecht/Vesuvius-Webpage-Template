@@ -1,0 +1,111 @@
+body {
+
+font-family: sans-serif;
+
+}
+
+#firstPic, #secondPic, #thirdPic, #fourthPic {
+
+width: 100%;
+
+height: auto;
+
+/*margin: -8px;*/
+
+}
+
+#firstPic {
+
+max-width: 104%;
+
+}
+
+#secondPic, #thirdPic, #fourthPic {
+
+max-width: 110%;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+#firstPic {
+
+max-width: 104%;
+
+}
+
+#secondPic, #thirdPic, #fourthPic {
+
+max-width: 104%;
+
+}
+
+}
+
+
+
+.content {
+
+text-align: center;
+
+}
+
+h1 {
+
+font-weight: 300;
+
+font-size: 4rem;
+
+}
+
+p {
+
+font-weight: 200;
+
+font-size: 1.1rem;
+
+}
+
+hr {
+
+border: none;
+
+height: 2px;
+
+color: #fff;
+
+background-color: #000;
+
+}
+
+h2 {
+
+font-weight: 200;
+
+font-size: 2rem;
+
+}
+
+#fatline {
+
+height: 5px;
+
+}
+
+.content.lastcontent {
+
+padding-top: 0.7rem;
+
+}
+
+.content {
+
+padding: 0 1.1rem 0 1.1rem;
+
+}
+
+svg:hover {
+
+cursor: pointer;
+
+}
